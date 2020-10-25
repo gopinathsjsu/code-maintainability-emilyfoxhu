@@ -33,7 +33,7 @@ public class Client {
         GumballMachine50C2Q.turnCrank();//No More Gumballs! Sorry, can't return your money.
 
         GumballMachine GumballMachine50CAllCoins = new GumballMachine50CAllCoins(5, 50);
-        System.out.println("\nThis is a test for the third Gumball Machine(Nickle/Dime/Quarter are the correct types of coin):");
+        System.out.println("\nThis is a test for the third Gumball Machine(Nickel/Dime/Quarter are the correct types of coin):");
         GumballMachine50CAllCoins.insertCoin(25);
         GumballMachine50CAllCoins.insertCoin(25);
         GumballMachine50CAllCoins.turnCrank();//Gumball Ejected
